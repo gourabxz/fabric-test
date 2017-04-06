@@ -2,7 +2,7 @@ var canvas = new fabric.Canvas('drawing', {
   width: window.innerWidth,
   height: window.innerWidth - 50,
   isDrawingMode: false,
-  backgroundColor: '#fff'
+  backgroundColor: '#19E174'
 });
 
 document.querySelectorAll('.square')[0].addEventListener('click', function(){
